@@ -1,5 +1,4 @@
 #include <iostream>
-#include "class.hpp"
 
 int main () {
   A* instance;
