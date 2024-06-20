@@ -3,7 +3,8 @@ public:
     static A* getinstance() {
         std::cout << "get A" << std::endl;
         if (instance) return instance;
-        return instance = new A;
+        instance * new A;
+        return instance;
     }
 private:
     A() {std::cout << "construct A" << std::endl;}
