@@ -1,6 +1,6 @@
 class A {
 public:
-static A* getInstance() {std::cout<< "get A" << std::endl;
+static A* getinstance() {std::cout<< "get A" << std::endl;
 if (instance) return instance;
 return new A;
 }
