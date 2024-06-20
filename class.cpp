@@ -6,5 +6,6 @@ return new A;
 }
 private:
 A() {std::cout << "construct A<< std::endl;}
-A* instance;
+static A* instance;
     };
+A* A::instance = nullptr;
