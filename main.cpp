@@ -1,6 +1,8 @@
-#include <iostream>
+#include "class.h"
 
-int main () {
-    A* pa1 = A::getinstance();
-    A* pa2 = A::getinstance();
+int main() {
+    A* pa1 = A::getInstance();
+    A* pa2 = A::getInstance();
+
+    return 0;
 }
