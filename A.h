@@ -1,5 +1,5 @@
-#ifndef CLASS_H
-#define CLASS_H
+#ifndef A_H
+#define A_H
 
 class A {
 public:
@@ -10,4 +10,4 @@ private:
     static A* instance;
 };
 
-#endif // CLASS_H
+#endif // A_H
