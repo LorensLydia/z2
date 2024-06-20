@@ -9,7 +9,7 @@ find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
 # Добавление исполняемого файла
-add_executable(z2 main.cpp)
+add_executable(z2 main.cpp class.cpp)
 
 # Целевая библиотека
 target_link_libraries(z2 ${GTEST_BOTH_LIBRARIES} pthread)
